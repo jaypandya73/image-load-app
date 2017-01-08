@@ -1,25 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+For demo checkout below links:-
 
-Things you may want to cover:
+https://warm-ocean-25240.herokuapp.com - This will load ALL Images without any enhancement.
 
-* Ruby version
+https://warm-ocean-25240.herokuapp.com/lazy_load_images - This will load ALL Images with Lazy Load.(used jQuery Lazy Load)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-This app will show you how to render images to enhance your site performance
+https://warm-ocean-25240.herokuapp.com/progressive_load_images - This will load ALL Images with PROGRESSIVE IMAGE LOADING TECHNIQUE. (FASTER THAN ANY OTHER)
