@@ -17,15 +17,15 @@ class HomeController < ApplicationController
 
   def all_images
     @images = [
-      'https://cdn4.geckoandfly.com/wp-content/uploads/2014/03/motivation-motivational-quotes-poster-wallpaper5.jpg',
-      'https://s-media-cache-ak0.pinimg.com/originals/1a/99/49/1a994928afa7866db6782dae8060708f.jpg',
-      'http://quotes.bestcoverpix.com/wp-content/uploads/2015/08/be-strong-quotes.jpg',
-      'http://www.success.com/sites/default/files/17_2.jpg',
+      'http://wallpapercave.com/wp/cAO5uXj.jpg',
+      'http://wallpapercave.com/wp/a82zHV4.jpg',
+      'http://www.pixelstalk.net/wp-content/uploads/2016/06/Volleyball-Wallpapers-HD-For-Desktop.jpg',
+      'http://wallpapercave.com/wp/Y8EK7hJ.jpg',
       'https://cdn3.geckoandfly.com/wp-content/uploads/2014/03/motivation-motivational-quotes-poster-wallpaper7.jpg',
-      'https://quotefancy.com/media/wallpaper/1600x900/4710-Muhammad-Ali-Quote-I-hated-every-minute-of-training-but-I-said-Don.jpg',
-      'https://cdn2.geckoandfly.com/wp-content/uploads/2014/03/leadership-management-style-skills-tips-quotes.jpg',
-      'https://s-media-cache-ak0.pinimg.com/originals/a4/d3/40/a4d340f895d9d32066817e81c5740ae8.jpg',
-      'http://www.rd.com/wp-content/uploads/sites/2/2016/07/Motivational_quotes_olympic_coaches4.jpg'
+      'http://www.fivb.org/Vis2009/Images/GetImage.asmx?type=press&no=57506',
+      'http://www.wallpapersxl.com/wallpapers/1280x1024/volleyball/987963/volleyball-latest-men-s-the-official-site-of-byu-athletics-987963.jpg',
+      'http://wallsdesk.com/wp-content/uploads/2016/02/texas-image-volleyball.jpg',
+      'http://www.hdnicewallpapers.com/Walls/Big/Volleyball/Man_Volleyball_Wallpapers.jpg'
     ]
   end
 end
