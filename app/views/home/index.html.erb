@@ -1,0 +1,45 @@
+<div class="container">
+  <%= render 'page_header'%>
+  <h2>
+    Sample home page.
+  </h2>
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <% @images.count.times do |index| %>
+      <li data-target="#myCarousel" data-slide-to="<%= index%>" class="<%=add_active_class(index)%>"></li>
+      <% end %>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <% @images.each_with_index do |image_path, index| %>
+      <div class="item <%=add_active_class(index)%>">
+        <img src=<%= image_path%>>
+      </div>
+      <% end %>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <div class="pad-b20"></div>
+  <div class="row">
+    <% @images.each do |image_path| %>
+    <div class="col-md-4">
+      <a href="#" class="thumbnail">
+        <img src=<%= image_path%> alt="Load Test" style="height:300px">
+      </a>
+    </div>
+    <%end%>
+  </div>
+</div>

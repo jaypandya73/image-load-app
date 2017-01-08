@@ -1,0 +1,55 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ .pad-b20{
+   padding-bottom: 20px;
+ }
+
+ .carousel-inner > .item > img,
+ .carousel-inner > .item > a > img {
+     margin: auto;
+     height: 500px;
+ }
+ 
+ // Progressive Image Loading CSS
+ .placeholder {
+   background-color: #f6f6f6;
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+   overflow: hidden;
+ }
+
+ .placeholder img {
+   position: absolute;
+   opacity: 0;
+   top: 0;
+   left: 0;
+   width: 100%;
+   transition: opacity 1s linear;
+ }
+
+ .placeholder img.loaded {
+   opacity: 1;
+ }
+
+ .img-small {
+   filter: blur(50px);
+   /* this is needed so Safari keeps sharp edges */
+   transform: scale(1);
+ }
